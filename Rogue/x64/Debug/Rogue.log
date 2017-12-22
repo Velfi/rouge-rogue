@@ -1,0 +1,7 @@
+﻿  Main.cpp
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static void __cdecl TCODConsole::initRoot(int,int,char const *,bool,enum TCOD_renderer_t)" (__imp_?initRoot@TCODConsole@@SAXHHPEBD_NW4TCOD_renderer_t@@@Z) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl TCODConsole::printEx(int,int,enum TCOD_bkgnd_flag_t,enum TCOD_alignment_t,char const *,...)" (__imp_?printEx@TCODConsole@@QEAAXHHW4TCOD_bkgnd_flag_t@@W4TCOD_alignment_t@@PEBDZZ) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static void __cdecl TCODConsole::flush(void)" (__imp_?flush@TCODConsole@@SAXXZ) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static struct TCOD_key_t __cdecl TCODConsole::waitForKeypress(bool)" (__imp_?waitForKeypress@TCODConsole@@SA?AUTCOD_key_t@@_N@Z) referenced in function main
+Main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class TCODConsole * TCODConsole::root" (__imp_?root@TCODConsole@@2PEAV1@EA)
+C:\Users\Zelda\projects\Rogue\x64\Debug\Rogue.exe : fatal error LNK1120: 5 unresolved externals

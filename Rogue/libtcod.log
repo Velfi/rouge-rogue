@@ -1,0 +1,118 @@
+﻿  bresenham.cpp
+  bsp.cpp
+  color.cpp
+  console.cpp
+  fov.cpp
+  heightmap.cpp
+  image.cpp
+  lex.cpp
+  mersenne.cpp
+  mouse.cpp
+  namegen.cpp
+  noise.cpp
+  parser.cpp
+  path.cpp
+  sys.cpp
+  txtfield.cpp
+  zip.cpp
+  Generating Code...
+  bresenham_c.c
+  bsp_c.c
+  color_c.c
+  console_c.c
+..\..\src\console_c.c(601): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\console_c.c(1300): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  fov_c.c
+  fov_circular_raycasting.c
+  fov_diamond_raycasting.c
+  fov_permissive2.c
+..\..\src\fov_permissive2.c(171): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  fov_recursive_shadowcasting.c
+  fov_restrictive.c
+  heightmap_c.c
+  image_c.c
+  lex_c.c
+..\..\src\lex_c.c(37): warning C4267: 'initializing': conversion from 'size_t' to 'uint32', possible loss of data
+..\..\src\lex_c.c(334): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  list_c.c
+  mersenne_c.c
+  namegen_c.c
+..\..\src\namegen_c.c(417): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  noise_c.c
+  parser_c.c
+..\..\src\parser_c.c(227): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  path_c.c
+..\..\src\path_c.c(65): warning C4244: 'initializing': conversion from 'uintptr' to 'uint32', possible loss of data
+..\..\src\path_c.c(68): warning C4244: 'initializing': conversion from 'uintptr' to 'uint32', possible loss of data
+  lodepng.c
+..\..\src\png\lodepng.c(798): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+..\..\src\png\lodepng.c(1458): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\png\lodepng.c(1462): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\png\lodepng.c(1500): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\png\lodepng.c(1534): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\png\lodepng.c(1482): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\png\lodepng.c(3492): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\png\lodepng.c(3478): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+..\..\src\png\lodepng.c(4326): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\png\lodepng.c(4374): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\png\lodepng.c(4454): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\png\lodepng.c(5397): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Compiling...
+  sys_c.c
+  sys_opengl_c.c
+  sys_sdl2_c.c
+..\..\src\sys_sdl2_c.c(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\src\sys_sdl2_c.c(165): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\src\sys_sdl2_c.c(391): warning C4244: '=': conversion from 'Sint64' to 'uint32', possible loss of data
+  sys_sdl_c.c
+..\..\src\sys_sdl_c.c(1592): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  sys_sdl_img_bmp.c
+  sys_sdl_img_png.c
+..\..\src\sys_sdl_img_png.c(111): warning C4267: 'function': conversion from 'size_t' to 'uint32', possible loss of data
+  tree_c.c
+  txtfield_c.c
+  wrappers.c
+..\..\src\wrappers.c(308): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  zip_c.c
+..\..\src\zip_c.c(77): warning C4244: '=': conversion from 'uintptr' to 'int', possible loss of data
+..\..\src\zip_c.c(108): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\zip_c.c(172): warning C4244: '=': conversion from 'uintptr' to 'int', possible loss of data
+..\..\src\zip_c.c(220): warning C4244: '=': conversion from 'uintptr' to 'char', possible loss of data
+..\..\src\zip_c.c(222): warning C4244: '=': conversion from 'uintptr' to 'char', possible loss of data
+..\..\src\zip_c.c(223): warning C4244: '=': conversion from 'uintptr' to 'char', possible loss of data
+..\..\src\zip_c.c(224): warning C4244: '=': conversion from 'uintptr' to 'char', possible loss of data
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+..\..\src\zlib\gzlib.c(245): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(514): note: see declaration of 'open'
+  gzread.c
+..\..\src\zlib\gzread.c(30): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(521): note: see declaration of 'read'
+..\..\src\zlib\gzread.c(591): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+  gzwrite.c
+..\..\src\zlib\gzwrite.c(84): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(556): note: see declaration of 'write'
+..\..\src\zlib\gzwrite.c(101): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(556): note: see declaration of 'write'
+..\..\src\zlib\gzwrite.c(573): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+  infback.c
+  inffast.c
+  Generating Code...
+  Compiling...
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+     Creating library C:\Users\Zelda\projects\libtcod-msvs-x64\build\msvs\libtcod\x64\Release\libtcod.lib and object C:\Users\Zelda\projects\libtcod-msvs-x64\build\msvs\libtcod\x64\Release\libtcod.exp
+  libtcod.vcxproj -> C:\Users\Zelda\projects\libtcod-msvs-x64\build\msvs\libtcod\x64\Release\libtcod.dll
+  libtcod.vcxproj -> C:\Users\Zelda\projects\libtcod-msvs-x64\build\msvs\libtcod\x64\Release\libtcod.pdb (Full PDB)

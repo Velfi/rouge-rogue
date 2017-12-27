@@ -2,6 +2,7 @@
 
 static const int ROOM_MAX_SIZE = 12;
 static const int ROOM_MIN_SIZE = 6;
+static const int MAX_ROOM_MONSTERS = 3;
 
 struct Tile {
     bool explored;
@@ -14,9 +15,11 @@ public:
     int width, height;
     Map(int width, int height);
     ~Map();
+    bool canWalk(int x, int y) const;
     bool isWall(int y, int x) const;
     bool isInFov(int x, int y) const;
     bool isExplored(int x, int y) const;
+    void addMonster(int x, int y);
     void computeFov();
     void render() const;
 protected:

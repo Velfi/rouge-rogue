@@ -1,4 +1,7 @@
-﻿  Generating code
-  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+﻿  Map.cpp
+  Generating code
+  4 of 36 functions (11.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Rogue.vcxproj -> C:\Users\Zelda\projects\Rogue\x64\Release\Rogue.exe
+  Rogue.vcxproj -> C:\Users\Zelda\source\repos\rouge-rogue\x64\Release\Rogue.exe
